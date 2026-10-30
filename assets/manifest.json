@@ -1,0 +1,67 @@
+{
+  "sourceSha256": "4b6b863a9fab9a924809b7cb799b416ca82293db734a70e0fbbf8433433f3622",
+  "runtime": "native Rust, no emulator",
+  "loadingScreen": {
+    "source": "DASHIII.ECR",
+    "paletteSource": "DASHIII.PAR",
+    "mode": 0,
+    "decoder": "RLE offset 0x3f; two runs per triple; 16384 VRAM bytes"
+  },
+  "maps": {
+    "address": "0xb0e0",
+    "width": 40,
+    "height": 22,
+    "count": 100,
+    "decoderRoutines": [
+      "0x13d1",
+      "0x11e2",
+      "0x173d",
+      "0x16af"
+    ]
+  },
+  "graphics": {
+    "bank": "0x2c00..0x5daf",
+    "tileLookup": "0x5df0",
+    "playerIdle": "0x58f0",
+    "playerRight": "0x59b0",
+    "playerLeft": "0x5bb0",
+    "palettes": "original routine 0x2995"
+  },
+  "audio": {
+    "musicRoutine": "0x183d",
+    "noteSequence": "0x6979",
+    "periodTable": "0x6a79",
+    "ayRegisterWriter": "0x1818",
+    "deathParameters": "0x043c",
+    "sampleRate": 44100,
+    "synthesis": "offline square-wave tone and 17-bit noise; analogue filter and envelope not emulated"
+  },
+  "assets": {
+    "BoulderDashIII.icns": "cfe14c74c390ee50a6697a8036573bdf8e9eba35a226aa45f6dc749ef80ec277",
+    "amoeba.ay.json": "a7c4598e7e7528212be58587cd7d949bc016292def89c10025a095663954dd69",
+    "amoeba.wav": "c38749c9b33ccd5f2101bdff5edc1558916e6018a8c0a8dfc71d1157ae69fe03",
+    "audio-manifest.json": "8564af35cdc4cb1f11623bdeb7a2ce207d9583dc8060ab8fee66729f47585403",
+    "caves-contact.png": "3adade66a34ed3a478d998e755f0fb67276ac50491cd5451bfc26fd158426049",
+    "caves.bin": "1bd47a577caaab2c9a2f90e89e5883177c17d3b2819419f840365263f3ecd4d7",
+    "caves.json": "2531a735a3b27a92349bca4c3162737dc63864491b61598474e72f30d5b4251f",
+    "death.ay.json": "2ae9a4bf9babd34ae5401ec1c629f0e0fee8880167db5e3c6ee5b87a9e4515f3",
+    "death.wav": "91980628b1c6fd073b6e0e34341607b4c35129c4731441ecd55ed75985f1be96",
+    "diamond.ay.json": "f56215aa189c8843fc2d8835bf0c29b168a6388300356e3a3a94cf4edf802d5b",
+    "diamond.wav": "ad7013a884d4207f96f134de47b10fcf599d76b201465d61e112db9f502ad8a9",
+    "dig.ay.json": "26b3f58b15dd801b3d26d98c59585a9f28926c563e5fa32d3bc20fe11245b25a",
+    "dig.wav": "d0343d91dfb1b9207814a7f3b7d5ca2bc885f1b2e82b05b5424d950946719f70",
+    "graphics-bank.bin": "ddf72eeddda580f965af72266602b96ed5fd57e832992cbdae6664252abb4f99",
+    "graphics-bank.png": "435d15a8355b49d128cadd4fc51f96b85d720b1bc1f2339793c3b19774cca58e",
+    "icon.png": "b66adc176aa5b1dc5cb17053b50d40f4227d25b93834f6f21466c127edf7699b",
+    "loading-palette.json": "b678f4c6e93a36b2f8dfe1ef7e972be67e623202abc2238cfdb8546ec7dee9a4",
+    "loading-screen.bin": "a87f8049b61676b3bebecab4929036fdbddf3ebcbdf04ac6b595dfda55f6f4ad",
+    "loading.png": "c5eb9d64dc12bafee2d0730771ec63173455be89b3b84cd6aa6a4639f10624f5",
+    "rock.ay.json": "216b4129a8e16dd1ef1d9ca2c88a24bedb2572598727104109e7f42683cdda5d",
+    "rock.wav": "71472a5b7a88ae1f538767c345bac7cd281c82a1830ffc2d875f005c7cc9db24",
+    "sprites.png": "d7140a323a1f887daf27b83abd0ac4a2c6e489a7f05e70c60c278bf4a1566799",
+    "step.ay.json": "b89fda8dfa23f46276ef6e022813b3c90ec8a409b1078895c7d8eb2828b02a90",
+    "step.wav": "5043d7d460cf2c55a7b5a7fe4d9af0035e685966fae567e7b39867805ed9460f",
+    "title.ay.json": "11548b65c45408d9ce64fd19c0458d17f64048bb029df2715c6fcb83be4c201c",
+    "title.wav": "d89e4d714b8e764d2e75116f08803d8cd00d4aad76e35487cb6c405df0daf3ab"
+  }
+}

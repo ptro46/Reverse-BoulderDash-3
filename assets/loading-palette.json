@@ -1,0 +1,24 @@
+{
+  "firmwareInks": [
+    26,
+    1,
+    23,
+    2,
+    6,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "source": "DASHIII.PAR",
+  "mode": 0,
+  "rleOffset": 63,
+  "consumedBytes": 6993
+}

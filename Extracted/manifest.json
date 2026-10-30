@@ -1,0 +1,38 @@
+{
+  "source": "BoulderDash3.dsk",
+  "sha256": "4b6b863a9fab9a924809b7cb799b416ca82293db734a70e0fbbf8433433f3622",
+  "files": [
+    {
+      "name": "DASH3.BAS",
+      "type": 0,
+      "load": 368,
+      "entry": 0,
+      "length": 89,
+      "sha256": "eb449d5f35d4b091dd709f35104cdfa6ccc1048f79c18bc642ddd66609669650"
+    },
+    {
+      "name": "DASHIII.BIN",
+      "type": 2,
+      "load": 10512,
+      "entry": 39222,
+      "length": 28728,
+      "sha256": "12281481b0c735b88d53bfaa8a19a9ef6c34883abaab71e1442f160e944795fa"
+    },
+    {
+      "name": "DASHIII.ECR",
+      "type": 2,
+      "load": 17664,
+      "entry": 0,
+      "length": 6993,
+      "sha256": "c753ecb0ecce0bc3d6b1d2d96cc80ba009ed1cdeb3ccf175cef114cfc9c848b0"
+    },
+    {
+      "name": "DASHIII.PAR",
+      "type": 2,
+      "load": 10000,
+      "entry": 77,
+      "length": 77,
+      "sha256": "e264df78d4d20adc30d964ea80bd565ab1f9022b0b03f18a467bea482f311922"
+    }
+  ]
+}
